@@ -29,13 +29,7 @@ const Navbar = ({ totalItems }) => {
             className={classes.title}
             color="inherit"
           >
-            <img
-              src={logo}
-              alt="Web Shop"
-              height="25px"
-              className={classes.image}
-            />
-            Web Shop
+            Web Shop Demo
           </Typography>
           <div className={classes.grow} />
           {location.pathname === "/" ? (
